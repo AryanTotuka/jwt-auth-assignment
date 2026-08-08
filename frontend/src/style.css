@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+}
+
+.page-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: white;
+  width: 380px;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card h1 {
+  margin-bottom: 20px;
+}
+
+.card input,
+.card select {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.card button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  background: #2563eb;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background: #1d4ed8;
+}
+
+.dashboard {
+  width: 500px;
+}
+
+.role-badge {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 20px;
+  background: #e5e7eb;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.logout-button {
+  margin-top: 20px;
+  background: #dc2626 !important;
+}
+
+.logout-button:hover {
+  background: #b91c1c !important;
+}
+
+.message {
+  color: #dc2626;
+  margin-top: 15px;
+}
